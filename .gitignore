@@ -25,5 +25,5 @@ build/
 dist/
 
 # Your bundled files from your services
-public/app.js
-
+public/*.js
+public/*.css
