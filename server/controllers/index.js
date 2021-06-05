@@ -11,7 +11,7 @@ const readQ = async (req, res) => {
 const Updatehelp = async (req, res) => {
   let id = req.params.id;
   let obj = req.body;
- 
+
   try {
     let response = await axios.put(`answers/${id}/helpful`);
     console.log('test1',response);
